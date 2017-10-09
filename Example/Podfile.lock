@@ -1,0 +1,36 @@
+PODS:
+  - AHFMBottomPlayerServices (0.1.0):
+    - AHFMServices
+  - AHFMCategoryVCManager (0.1.0):
+    - AHFMBottomPlayerServices
+    - AHFMCategoryVCServices
+    - AHFMKeywordVCServices
+    - AHFMModuleManager
+    - AHServiceRouter
+  - AHFMCategoryVCServices (0.1.0):
+    - AHFMServices
+  - AHFMKeywordVCServices (0.1.0):
+    - AHFMServices
+  - AHFMModuleManager (0.2.0)
+  - AHFMServices (0.3.0)
+  - AHServiceRouter (0.5.3)
+
+DEPENDENCIES:
+  - AHFMCategoryVCManager (from `../`)
+
+EXTERNAL SOURCES:
+  AHFMCategoryVCManager:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AHFMBottomPlayerServices: 62e83815ed8969376d047556382931cc46841de5
+  AHFMCategoryVCManager: 19bbe5a61b6179ffec404cb5bd0402d4de23d10b
+  AHFMCategoryVCServices: c7aeb8e339638849c7433581322f01287fcf2346
+  AHFMKeywordVCServices: fce1f66afd3c3337edbcc6ff8bb73758ae5099bb
+  AHFMModuleManager: 301c8a5945a301528d5cba55e4809428ef896141
+  AHFMServices: 7c2c52fd7bd0b604fdab05cc9adb13129c218b60
+  AHServiceRouter: b7b49e712cf8d697ded8c48151cfcd2ee103a562
+
+PODFILE CHECKSUM: 27f316009d3819d17049dab16b3fdb964671b871
+
+COCOAPODS: 1.3.0.beta.2

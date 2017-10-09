@@ -1,0 +1,39 @@
+{
+  "name": "AHFMCategoryVCManager",
+  "version": "0.1.0",
+  "summary": "A short description of AHFMCategoryVCManager.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/iOSModularization/AHFMCategoryVCManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ivsall2012": "ivsall2012@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/iOSModularization/AHFMCategoryVCManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AHFMCategoryVCManager/Classes/**/*",
+  "dependencies": {
+    "AHServiceRouter": [
+
+    ],
+    "AHFMModuleManager": [
+
+    ],
+    "AHFMCategoryVCServices": [
+
+    ],
+    "AHFMKeywordVCServices": [
+
+    ],
+    "AHFMBottomPlayerServices": [
+
+    ]
+  }
+}
