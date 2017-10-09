@@ -13,7 +13,8 @@ import AHFMCategoryVCServices
 
 public struct AHFMCategoryVCManager: AHFMModuleManager {
     public static func activate() {
-        AHServiceRouter.registerVC(AHFMCategoryVCServices.service, taskName: AHFMCategoryVCServices.taskCreateVC) { (_) -> UIViewController? in
+        AHServiceRouter.registerTask(AHFMCategoryVCServices.service, taskName: AHFMCategoryVCServices.taskCreateVC) { (_, _) -> [String : Any]? in
+            
             let vcStr = "AHFMCategoryVC.AHFMCategoryVC"
             
             guard let vcType = NSClassFromString(vcStr) as? UIViewController.Type else {
