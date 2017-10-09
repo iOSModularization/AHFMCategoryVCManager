@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AHFMCategoryVCManager_Example' do
+  pod 'AHFMCategoryVCManager', :path => '../'
+
+  target 'AHFMCategoryVCManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
